@@ -1,0 +1,282 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      Build started 28/03/2023 13.51.15.
+      Project "D:\\arvin-guitar-amp-vst3\\build\\CMakeFiles\\3.26.1\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\arvin-guitar-amp-vst3\\build\\CMakeFiles\\3.26.1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "D:\\arvin-guitar-amp-vst3\\build\\CMakeFiles\\3.26.1\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:02.07
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/arvin-guitar-amp-vst3/build/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      Build started 28/03/2023 13.51.18.
+      Project "D:\\arvin-guitar-amp-vst3\\build\\CMakeFiles\\3.26.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\arvin-guitar-amp-vst3\\build\\CMakeFiles\\3.26.1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "D:\\arvin-guitar-amp-vst3\\build\\CMakeFiles\\3.26.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.37
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/arvin-guitar-amp-vst3/build/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/arvin-guitar-amp-vst3/build/CMakeFiles/CMakeScratch/TryCompile-ku61s4"
+      binary: "D:/arvin-guitar-amp-vst3/build/CMakeFiles/CMakeScratch/TryCompile-ku61s4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "10.13"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: D:/arvin-guitar-amp-vst3/build/CMakeFiles/CMakeScratch/TryCompile-ku61s4
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_08d29.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 28/03/2023 13.51.20.
+        Project "D:\\arvin-guitar-amp-vst3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ku61s4\\cmTC_08d29.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_08d29.dir\\Debug\\".
+          Creating directory "D:\\arvin-guitar-amp-vst3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ku61s4\\Debug\\".
+          Creating directory "cmTC_08d29.dir\\Debug\\cmTC_08d29.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_08d29.dir\\Debug\\cmTC_08d29.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_08d29.dir\\Debug\\\\" /Fd"cmTC_08d29.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30148 for x64
+          CMakeCCompilerABI.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_08d29.dir\\Debug\\\\" /Fd"cmTC_08d29.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\arvin-guitar-amp-vst3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ku61s4\\Debug\\cmTC_08d29.exe" /INCREMENTAL /ILK:"cmTC_08d29.dir\\Debug\\cmTC_08d29.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/arvin-guitar-amp-vst3/build/CMakeFiles/CMakeScratch/TryCompile-ku61s4/Debug/cmTC_08d29.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/arvin-guitar-amp-vst3/build/CMakeFiles/CMakeScratch/TryCompile-ku61s4/Debug/cmTC_08d29.lib" /MACHINE:X64  /machine:x64 cmTC_08d29.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_08d29.vcxproj -> D:\\arvin-guitar-amp-vst3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ku61s4\\Debug\\cmTC_08d29.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_08d29.dir\\Debug\\cmTC_08d29.tlog\\unsuccessfulbuild".
+          Touching "cmTC_08d29.dir\\Debug\\cmTC_08d29.tlog\\cmTC_08d29.lastbuildstate".
+        Done Building Project "D:\\arvin-guitar-amp-vst3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ku61s4\\cmTC_08d29.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.20
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/arvin-guitar-amp-vst3/build/CMakeFiles/CMakeScratch/TryCompile-wuivqk"
+      binary: "D:/arvin-guitar-amp-vst3/build/CMakeFiles/CMakeScratch/TryCompile-wuivqk"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "10.13"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: D:/arvin-guitar-amp-vst3/build/CMakeFiles/CMakeScratch/TryCompile-wuivqk
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_59123.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 28/03/2023 13.51.21.
+        Project "D:\\arvin-guitar-amp-vst3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wuivqk\\cmTC_59123.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_59123.dir\\Debug\\".
+          Creating directory "D:\\arvin-guitar-amp-vst3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wuivqk\\Debug\\".
+          Creating directory "cmTC_59123.dir\\Debug\\cmTC_59123.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_59123.dir\\Debug\\cmTC_59123.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_59123.dir\\Debug\\\\" /Fd"cmTC_59123.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30148 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_59123.dir\\Debug\\\\" /Fd"cmTC_59123.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\arvin-guitar-amp-vst3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wuivqk\\Debug\\cmTC_59123.exe" /INCREMENTAL /ILK:"cmTC_59123.dir\\Debug\\cmTC_59123.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/arvin-guitar-amp-vst3/build/CMakeFiles/CMakeScratch/TryCompile-wuivqk/Debug/cmTC_59123.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/arvin-guitar-amp-vst3/build/CMakeFiles/CMakeScratch/TryCompile-wuivqk/Debug/cmTC_59123.lib" /MACHINE:X64  /machine:x64 cmTC_59123.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_59123.vcxproj -> D:\\arvin-guitar-amp-vst3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wuivqk\\Debug\\cmTC_59123.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_59123.dir\\Debug\\cmTC_59123.tlog\\unsuccessfulbuild".
+          Touching "cmTC_59123.dir\\Debug\\cmTC_59123.tlog\\cmTC_59123.lastbuildstate".
+        Done Building Project "D:\\arvin-guitar-amp-vst3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wuivqk\\cmTC_59123.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.23
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckSourceCompiles.cmake:97 (cmake_check_source_compiles)"
+      - "C:/VST_SDK/vst3sdk/pluginterfaces/CMakeLists.txt:52 (check_source_compiles)"
+    checks:
+      - "Performing Test SMTG_USE_STDATOMIC_H"
+    directories:
+      source: "D:/arvin-guitar-amp-vst3/build/CMakeFiles/CMakeScratch/TryCompile-2t4hw7"
+      binary: "D:/arvin-guitar-amp-vst3/build/CMakeFiles/CMakeScratch/TryCompile-2t4hw7"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/VST_SDK/vst3sdk/cmake/modules"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "10.13"
+    buildResult:
+      variable: "SMTG_USE_STDATOMIC_H"
+      cached: true
+      stdout: |
+        Change Dir: D:/arvin-guitar-amp-vst3/build/CMakeFiles/CMakeScratch/TryCompile-2t4hw7
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_ef53a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 28/03/2023 13.51.23.
+        Project "D:\\arvin-guitar-amp-vst3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2t4hw7\\cmTC_ef53a.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_ef53a.dir\\Debug\\".
+          Creating directory "D:\\arvin-guitar-amp-vst3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2t4hw7\\Debug\\".
+          Creating directory "cmTC_ef53a.dir\\Debug\\cmTC_ef53a.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_ef53a.dir\\Debug\\cmTC_ef53a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SMTG_USE_STDATOMIC_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ef53a.dir\\Debug\\\\" /Fd"cmTC_ef53a.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\arvin-guitar-amp-vst3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2t4hw7\\src.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30148 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          src.cxx
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SMTG_USE_STDATOMIC_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ef53a.dir\\Debug\\\\" /Fd"cmTC_ef53a.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\arvin-guitar-amp-vst3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2t4hw7\\src.cxx"
+        D:\\arvin-guitar-amp-vst3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2t4hw7\\src.cxx(1,10): fatal error C1083: Cannot open include file: 'stdatomic.h': No such file or directory [D:\\arvin-guitar-amp-vst3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2t4hw7\\cmTC_ef53a.vcxproj]
+        Done Building Project "D:\\arvin-guitar-amp-vst3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2t4hw7\\cmTC_ef53a.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\arvin-guitar-amp-vst3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2t4hw7\\cmTC_ef53a.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\arvin-guitar-amp-vst3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2t4hw7\\src.cxx(1,10): fatal error C1083: Cannot open include file: 'stdatomic.h': No such file or directory [D:\\arvin-guitar-amp-vst3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2t4hw7\\cmTC_ef53a.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.82
+        
+      exitCode: 1
+...

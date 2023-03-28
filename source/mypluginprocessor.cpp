@@ -12,20 +12,20 @@ using namespace Steinberg;
 
 namespace MyCompanyName {
 //------------------------------------------------------------------------
-// ArvinAmpFXProcessor
+// arvin_guitar_amp_vst3Processor
 //------------------------------------------------------------------------
-ArvinAmpFXProcessor::ArvinAmpFXProcessor ()
+arvin_guitar_amp_vst3Processor::arvin_guitar_amp_vst3Processor ()
 {
 	//--- set the wanted controller for our processor
-	setControllerClass (kArvinAmpFXControllerUID);
+	setControllerClass (karvin_guitar_amp_vst3ControllerUID);
 }
 
 //------------------------------------------------------------------------
-ArvinAmpFXProcessor::~ArvinAmpFXProcessor ()
+arvin_guitar_amp_vst3Processor::~arvin_guitar_amp_vst3Processor ()
 {}
 
 //------------------------------------------------------------------------
-tresult PLUGIN_API ArvinAmpFXProcessor::initialize (FUnknown* context)
+tresult PLUGIN_API arvin_guitar_amp_vst3Processor::initialize (FUnknown* context)
 {
 	// Here the Plug-in will be instantiated
 	
@@ -48,7 +48,7 @@ tresult PLUGIN_API ArvinAmpFXProcessor::initialize (FUnknown* context)
 }
 
 //------------------------------------------------------------------------
-tresult PLUGIN_API ArvinAmpFXProcessor::terminate ()
+tresult PLUGIN_API arvin_guitar_amp_vst3Processor::terminate ()
 {
 	// Here the Plug-in will be de-instantiated, last possibility to remove some memory!
 	
@@ -57,14 +57,14 @@ tresult PLUGIN_API ArvinAmpFXProcessor::terminate ()
 }
 
 //------------------------------------------------------------------------
-tresult PLUGIN_API ArvinAmpFXProcessor::setActive (TBool state)
+tresult PLUGIN_API arvin_guitar_amp_vst3Processor::setActive (TBool state)
 {
 	//--- called when the Plug-in is enable/disable (On/Off) -----
 	return AudioEffect::setActive (state);
 }
 
 //------------------------------------------------------------------------
-tresult PLUGIN_API ArvinAmpFXProcessor::process (Vst::ProcessData& data)
+tresult PLUGIN_API arvin_guitar_amp_vst3Processor::process (Vst::ProcessData& data)
 {
 	//--- First : Read inputs parameter changes-----------
 
@@ -91,14 +91,14 @@ tresult PLUGIN_API ArvinAmpFXProcessor::process (Vst::ProcessData& data)
 }
 
 //------------------------------------------------------------------------
-tresult PLUGIN_API ArvinAmpFXProcessor::setupProcessing (Vst::ProcessSetup& newSetup)
+tresult PLUGIN_API arvin_guitar_amp_vst3Processor::setupProcessing (Vst::ProcessSetup& newSetup)
 {
 	//--- called before any processing ----
 	return AudioEffect::setupProcessing (newSetup);
 }
 
 //------------------------------------------------------------------------
-tresult PLUGIN_API ArvinAmpFXProcessor::canProcessSampleSize (int32 symbolicSampleSize)
+tresult PLUGIN_API arvin_guitar_amp_vst3Processor::canProcessSampleSize (int32 symbolicSampleSize)
 {
 	// by default kSample32 is supported
 	if (symbolicSampleSize == Vst::kSample32)
@@ -112,7 +112,7 @@ tresult PLUGIN_API ArvinAmpFXProcessor::canProcessSampleSize (int32 symbolicSamp
 }
 
 //------------------------------------------------------------------------
-tresult PLUGIN_API ArvinAmpFXProcessor::setState (IBStream* state)
+tresult PLUGIN_API arvin_guitar_amp_vst3Processor::setState (IBStream* state)
 {
 	// called when we load a preset, the model has to be reloaded
 	IBStreamer streamer (state, kLittleEndian);
@@ -121,7 +121,7 @@ tresult PLUGIN_API ArvinAmpFXProcessor::setState (IBStream* state)
 }
 
 //------------------------------------------------------------------------
-tresult PLUGIN_API ArvinAmpFXProcessor::getState (IBStream* state)
+tresult PLUGIN_API arvin_guitar_amp_vst3Processor::getState (IBStream* state)
 {
 	// here we need to save the model
 	IBStreamer streamer (state, kLittleEndian);

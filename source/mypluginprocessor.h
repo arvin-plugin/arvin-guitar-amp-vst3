@@ -9,18 +9,18 @@
 namespace MyCompanyName {
 
 //------------------------------------------------------------------------
-//  ArvinAmpFXProcessor
+//  arvin_guitar_amp_vst3Processor
 //------------------------------------------------------------------------
-class ArvinAmpFXProcessor : public Steinberg::Vst::AudioEffect
+class arvin_guitar_amp_vst3Processor : public Steinberg::Vst::AudioEffect
 {
 public:
-	ArvinAmpFXProcessor ();
-	~ArvinAmpFXProcessor () SMTG_OVERRIDE;
+	arvin_guitar_amp_vst3Processor ();
+	~arvin_guitar_amp_vst3Processor () SMTG_OVERRIDE;
 
     // Create function
 	static Steinberg::FUnknown* createInstance (void* /*context*/) 
 	{ 
-		return (Steinberg::Vst::IAudioProcessor*)new ArvinAmpFXProcessor; 
+		return (Steinberg::Vst::IAudioProcessor*)new arvin_guitar_amp_vst3Processor; 
 	}
 
 	//--- ---------------------------------------------------------------------

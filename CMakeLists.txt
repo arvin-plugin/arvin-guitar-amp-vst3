@@ -48,8 +48,8 @@ endif(SMTG_ADD_VSTGUI)
 
 smtg_target_add_plugin_snapshots (arvin_guitar_amp_vst3
     RESOURCES
-        resource/A393F33FF4AE5725A8B5098866F4E1CB_snapshot.png
-        resource/A393F33FF4AE5725A8B5098866F4E1CB_snapshot_2.0x.png
+        resource/0E68A5D7B5155B6B9C11D178722C69DA_snapshot.png
+        resource/0E68A5D7B5155B6B9C11D178722C69DA_snapshot_2.0x.png
 )
 
 target_link_libraries(arvin_guitar_amp_vst3
@@ -61,7 +61,7 @@ smtg_target_configure_version_file(arvin_guitar_amp_vst3)
 
 if(SMTG_MAC)
     smtg_target_set_bundle(arvin_guitar_amp_vst3
-        BUNDLE_IDENTIFIER com.arvinplugin.arvin-guitar-amp-vst3
+        BUNDLE_IDENTIFIER com.arvin-plugin.arvin-guitar-amp-vst3
         COMPANY_NAME "Arvin Plugin"
     )
     smtg_target_set_debug_executable(arvin_guitar_amp_vst3

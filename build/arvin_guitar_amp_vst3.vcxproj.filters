@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\arvin-guitar-amp-vst3\source\mypluginprocessor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\arvin-guitar-amp-vst3\source\myplugincontroller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\arvin-guitar-amp-vst3\source\mypluginentry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VST_SDK\vst3sdk\public.sdk\source\main\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\arvin-guitar-amp-vst3\source\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\arvin-guitar-amp-vst3\source\myplugincids.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\arvin-guitar-amp-vst3\source\mypluginprocessor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\arvin-guitar-amp-vst3\source\myplugincontroller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\arvin-guitar-amp-vst3\resource\myplugineditor.uidesc" />
+    <CustomBuild Include="D:\arvin-guitar-amp-vst3\resource\0E68A5D7B5155B6B9C11D178722C69DA_snapshot.png">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\arvin-guitar-amp-vst3\resource\0E68A5D7B5155B6B9C11D178722C69DA_snapshot_2.0x.png">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\arvin-guitar-amp-vst3\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\arvin-guitar-amp-vst3\resource\win32resource.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{8025F9F7-6457-3055-8C47-8842A1D81A75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{7EEF9EEA-5084-3DA7-9F22-2BD2B3971A86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6D3145C2-A18E-3AE0-B872-A561817F1F3C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

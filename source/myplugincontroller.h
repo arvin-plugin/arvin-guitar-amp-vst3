@@ -9,19 +9,19 @@
 namespace MyCompanyName {
 
 //------------------------------------------------------------------------
-//  ArvinAmpFXController
+//  arvin_guitar_amp_vst3Controller
 //------------------------------------------------------------------------
-class ArvinAmpFXController : public Steinberg::Vst::EditControllerEx1
+class arvin_guitar_amp_vst3Controller : public Steinberg::Vst::EditControllerEx1
 {
 public:
 //------------------------------------------------------------------------
-	ArvinAmpFXController () = default;
-	~ArvinAmpFXController () SMTG_OVERRIDE = default;
+	arvin_guitar_amp_vst3Controller () = default;
+	~arvin_guitar_amp_vst3Controller () SMTG_OVERRIDE = default;
 
     // Create function
 	static Steinberg::FUnknown* createInstance (void* /*context*/)
 	{
-		return (Steinberg::Vst::IEditController*)new ArvinAmpFXController;
+		return (Steinberg::Vst::IEditController*)new arvin_guitar_amp_vst3Controller;
 	}
 
 	// IPluginBase
